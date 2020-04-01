@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/data-science-blog/static/css/main.5f361e03.chunk.css",
+    "main.js": "/data-science-blog/static/js/main.d00bcfd3.chunk.js",
+    "main.js.map": "/data-science-blog/static/js/main.d00bcfd3.chunk.js.map",
+    "runtime-main.js": "/data-science-blog/static/js/runtime-main.8d50559b.js",
+    "runtime-main.js.map": "/data-science-blog/static/js/runtime-main.8d50559b.js.map",
+    "static/js/2.675fa13d.chunk.js": "/data-science-blog/static/js/2.675fa13d.chunk.js",
+    "static/js/2.675fa13d.chunk.js.map": "/data-science-blog/static/js/2.675fa13d.chunk.js.map",
+    "index.html": "/data-science-blog/index.html",
+    "precache-manifest.69399272f3a5e58b77413410af50d315.js": "/data-science-blog/precache-manifest.69399272f3a5e58b77413410af50d315.js",
+    "service-worker.js": "/data-science-blog/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/data-science-blog/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.675fa13d.chunk.js.LICENSE.txt": "/data-science-blog/static/js/2.675fa13d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/data-science-blog/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d50559b.js",
+    "static/js/2.675fa13d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d00bcfd3.chunk.js"
+  ]
+}
