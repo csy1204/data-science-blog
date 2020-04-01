@@ -27,7 +27,9 @@ jobs:
         node-version: 12.x
     # Runs a single command using the runners shell
     - name: Run a one-line script
-      run: echo Hello, world!
+      run: |
+        echo Hello, world!
+        ls -al
     - name: Set email
       run: git config --global user.email "josang1204@gmail.com"
     - name: Set username
@@ -35,11 +37,11 @@ jobs:
     - name: Install Packages
       run: npm install
     - name: Build
-      run: npm build
+      run: npm run build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.4.6
       with:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BASE_BRANCH: master
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build
+          FOLDER: data-science-blog/build
