@@ -2,6 +2,10 @@
 
 > React + gh-page + Github Action
 
+
+![Build and Deploy](https://github.com/csy1204/data-science-blog/workflows/Build%20and%20Deploy/badge.svg?branch=master)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
