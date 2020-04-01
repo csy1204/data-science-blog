@@ -28,16 +28,19 @@ jobs:
     # Runs a single command using the runners shell
     - name: Run a one-line script
       run: echo Hello, world!
-      
+    - name: Set email
+      run: git config --global user.email "josang1204@gmail.com"
+    - name: Set username
+      run: git config --global user.name "csy1204"
     - name: Install Packages
       run: npm install
-    
     - name: Build
       run: npm build
     
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.4.6
+      uses: JamesIves/github-pages-deploy-action@@releases/v3
       with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BASE_BRANCH: master
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build
